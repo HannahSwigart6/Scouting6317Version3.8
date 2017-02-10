@@ -137,41 +137,40 @@ Public Class Form1
 
      
        
-        Writer.Write(txtTeamName.Text)
+        Writer.Write(txtTeamName.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(txtTeamNum.Text)
+        Writer.Write(txtTeamNum.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(UpperAutoPts.Text)
+        Writer.Write(UpperAutoPts.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(LowerAutoPts.Text)
+        Writer.Write(LowerAutoPts.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(BreakB.Text)
+        Writer.Write(BreakB.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(Rotor.Text)
+        Writer.Write(Rotor.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(UpperTeleopPts.Text)
+        Writer.Write(UpperTeleopPts.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(LowerTeleopPts.Text)
+        Writer.Write(LowerTeleopPts.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(Rotor120.Text)
+        Writer.Write(Rotor120.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(Rotor160.Text)
+        Writer.Write(Rotor160.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(Rotor40.Text)
+        Writer.Write(Rotor40.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(Rotor80.Text)
+        Writer.Write(Rotor80.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(Rope.Text)
+        Writer.Write(Rope.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(lblResult.Text)
+        Writer.Write(lblResult.Text + "/r")
         Writer.Write("     ")
-        Writer.Write(lblTotal.Text)
-        Writer.Write("     ")
+        Writer.Write(lblTotal.Text + "/r")
+
         Writer.Write(txtSpecial.Text)
         Writer.Close()
 
     End Sub
-
 End Class
 
 
