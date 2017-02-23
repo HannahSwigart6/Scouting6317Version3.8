@@ -46,7 +46,6 @@ Partial Class Form1
         Me.Label12 = New System.Windows.Forms.Label()
         Me.lblResult = New System.Windows.Forms.Label()
         Me.btnResult = New System.Windows.Forms.Button()
-        Me.btnTotal = New System.Windows.Forms.Button()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label17 = New System.Windows.Forms.Label()
         Me.txtTeamName = New System.Windows.Forms.TextBox()
@@ -268,21 +267,12 @@ Partial Class Form1
         '
         'btnResult
         '
-        Me.btnResult.Location = New System.Drawing.Point(121, 378)
+        Me.btnResult.Location = New System.Drawing.Point(335, 365)
         Me.btnResult.Name = "btnResult"
-        Me.btnResult.Size = New System.Drawing.Size(139, 45)
+        Me.btnResult.Size = New System.Drawing.Size(163, 75)
         Me.btnResult.TabIndex = 22
         Me.btnResult.Text = "Total Out!"
         Me.btnResult.UseVisualStyleBackColor = True
-        '
-        'btnTotal
-        '
-        Me.btnTotal.Location = New System.Drawing.Point(616, 378)
-        Me.btnTotal.Name = "btnTotal"
-        Me.btnTotal.Size = New System.Drawing.Size(139, 45)
-        Me.btnTotal.TabIndex = 24
-        Me.btnTotal.Text = "Total Out!"
-        Me.btnTotal.UseVisualStyleBackColor = True
         '
         'Label16
         '
@@ -332,9 +322,9 @@ Partial Class Form1
         '
         Me.btnExcel.Location = New System.Drawing.Point(531, 463)
         Me.btnExcel.Name = "btnExcel"
-        Me.btnExcel.Size = New System.Drawing.Size(128, 74)
+        Me.btnExcel.Size = New System.Drawing.Size(269, 74)
         Me.btnExcel.TabIndex = 33
-        Me.btnExcel.Text = "Export to Excel:"
+        Me.btnExcel.Text = "Export to Notepad:"
         Me.btnExcel.UseVisualStyleBackColor = True
         '
         'btnExit
@@ -343,7 +333,7 @@ Partial Class Form1
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(129, 56)
         Me.btnExit.TabIndex = 34
-        Me.btnExit.Text = "Exit!!!"
+        Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'lblTotal
@@ -421,7 +411,7 @@ Partial Class Form1
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(128, 56)
         Me.btnClear.TabIndex = 42
-        Me.btnClear.Text = "CLEAR!!!"
+        Me.btnClear.Text = "CLEAR"
         Me.btnClear.UseVisualStyleBackColor = True
         '
         'txtSpecial
@@ -464,7 +454,6 @@ Partial Class Form1
         Me.Controls.Add(Me.txtTeamName)
         Me.Controls.Add(Me.Label17)
         Me.Controls.Add(Me.Label16)
-        Me.Controls.Add(Me.btnTotal)
         Me.Controls.Add(Me.btnResult)
         Me.Controls.Add(Me.lblResult)
         Me.Controls.Add(Me.Label12)
@@ -519,7 +508,6 @@ Partial Class Form1
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents lblResult As System.Windows.Forms.Label
     Friend WithEvents btnResult As System.Windows.Forms.Button
-    Friend WithEvents btnTotal As System.Windows.Forms.Button
     Friend WithEvents Label16 As System.Windows.Forms.Label
     Friend WithEvents Label17 As System.Windows.Forms.Label
     Friend WithEvents txtTeamName As System.Windows.Forms.TextBox

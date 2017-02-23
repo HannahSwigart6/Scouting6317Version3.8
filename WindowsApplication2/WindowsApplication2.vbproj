@@ -138,6 +138,7 @@
     <Content Include="Database4.accdb">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\ScoutingTextDesk.txt" />
     <None Include="Resources\ScoutingText.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

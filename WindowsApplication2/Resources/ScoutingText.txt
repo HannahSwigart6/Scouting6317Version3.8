@@ -1,1 +1,7 @@
-          72     100     Completed     Completed     21     18     3     4     1     2     Completed     170.333333333333     49     text 
+Team Name: 
+Team Number: 
+TeleOp: 153.333333333333
+Autonomous: 15
+Break Baseline: Completed
+Rotor Turning: Completed
+Special Comments: The robot pilots for team 5555 was not good

@@ -26,12 +26,12 @@ Public Class Form1
 
 
         If BreakB.Checked = True Then
-            dblResult = dblUpperAutoPts + (dblLowerAutoPts / 3)
+            dblResult = dblUpperAutoPts + (dblLowerAutoPts / 3) + intBreakB
             lblResult.Text = CStr(dblResult)
         End If
 
         If Rotor.Checked = True Then
-            dblResult = dblUpperAutoPts + (dblLowerAutoPts / 3)
+            dblResult = dblUpperAutoPts + (dblLowerAutoPts / 3) + intRotor
             lblResult.Text = CStr(dblResult)
         End If
 
@@ -39,12 +39,19 @@ Public Class Form1
             dblResult = dblUpperAutoPts + (dblLowerAutoPts / 3) + intBreakB + intRotor
             lblResult.Text = CStr(dblResult)
         End If
-    End Sub
-    Private Sub btnTotal_Click(sender As Object, e As EventArgs) Handles btnTotal.Click
+
+
+
+
+
+
+
+
+
         Dim dblUpperTeleopPts As Double
         Dim dblLowerTeleopPts As Double
         Dim dblTotal As Double
-        Dim blnInputOk = True
+
 
         Const intRope As Integer = 50
         Const intRotor40 As Integer = 40
@@ -56,9 +63,8 @@ Public Class Form1
         dblUpperTeleopPts = CDbl(UpperTeleopPts.Text)
         dblLowerTeleopPts = CDbl(LowerTeleopPts.Text)
 
-        lblTotal.Text = CStr(lblTotal.Text)
-
         dblTotal = (dblUpperTeleopPts / 3) + (dblLowerTeleopPts / 9)
+        lblTotal.Text = CStr(dblTotal)
 
         'If check boxes are checked.
         If Rope.Checked = True Then
@@ -103,7 +109,6 @@ Public Class Form1
             lblTotal.Text = CStr(dblTotal)
         End If
     End Sub
-
     Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
         'Unchecking the CheckBoxes!
         BreakB.Checked = False
@@ -133,42 +138,23 @@ Public Class Form1
 
     Private Sub btnExcel_Click(sender As Object, e As EventArgs) Handles btnExcel.Click
 
-        Dim Writer As New StreamWriter("C:\Users\hs131455\Desktop\Github repository\-6317Scouting\WindowsApplication2\WindowsApplication2\Resources\ScoutingText.txt", False)
+        Dim AddInfo As New StreamWriter("C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\Resources\ScoutingText.txt", False)
 
-     
-       
-        Writer.Write(txtTeamName.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(txtTeamNum.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(UpperAutoPts.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(LowerAutoPts.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(BreakB.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(Rotor.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(UpperTeleopPts.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(LowerTeleopPts.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(Rotor120.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(Rotor160.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(Rotor40.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(Rotor80.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(Rope.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(lblResult.Text + "/r")
-        Writer.Write("     ")
-        Writer.Write(lblTotal.Text + "/r")
+        AddInfo.WriteLine("Team Name: " + txtTeamName.Text)
+        AddInfo.WriteLine("Team Number: " + txtTeamNum.Text)
 
-        Writer.Write(txtSpecial.Text)
-        Writer.Close()
+        AddInfo.WriteLine("TeleOp: " + lblTotal.Text)
+
+        AddInfo.WriteLine("Autonomous: " + lblResult.Text)
+
+        AddInfo.WriteLine("Break Baseline: " + BreakB.Text)
+
+        AddInfo.WriteLine("Rotor Turning: " + Rotor.Text)
+
+        AddInfo.WriteLine("Special Comments: " + txtSpecial.Text)
+
+        AddInfo.Close()
+
 
     End Sub
 End Class

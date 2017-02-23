@@ -61,7 +61,14 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Looks up a localized string similar to .
+        '''  Looks up a localized string similar to Team Name: 
+        '''Team Number: 
+        '''TeleOp: 211.888888888889
+        '''Autonomous: 72
+        '''Break Baseline: Completed
+        '''Rotor Turning: Completed
+        '''Special Comments: 
+        '''.
         '''</summary>
         Friend ReadOnly Property ScoutingText() As String
             Get

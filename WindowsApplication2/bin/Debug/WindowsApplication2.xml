@@ -17,7 +17,14 @@ WindowsApplication2
 </summary>
 </member><member name="P:WindowsApplication2.My.Resources.Resources.ScoutingText">
 	<summary>
-  Looks up a localized string similar to .
+  Looks up a localized string similar to Team Name: 
+Team Number: 
+TeleOp: 211.888888888889
+Autonomous: 72
+Break Baseline: Completed
+Rotor Turning: Completed
+Special Comments: 
+.
 </summary>
 </member><member name="T:WindowsApplication2.My.Resources.Resources">
 	<summary>
