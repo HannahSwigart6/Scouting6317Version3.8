@@ -1,7 +1,7 @@
 Team Name: 
 Team Number: 
-TeleOp: 153.333333333333
-Autonomous: 15
+TeleOp: 2
+Autonomous: 4
 Break Baseline: Completed
 Rotor Turning: Completed
-Special Comments: The robot pilots for team 5555 was not good
+Special Comments: 

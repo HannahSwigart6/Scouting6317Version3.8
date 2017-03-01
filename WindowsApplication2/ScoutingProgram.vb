@@ -6,6 +6,9 @@ Public Class Form1
 
 
     Private Sub btnResult_Click(sender As Object, e As EventArgs) Handles btnResult.Click
+        'Autonomous Scoring Code!!!!!!!!!!!
+        'Autonomous Scoring Code!!!!!!!!!!!
+        'Autonomous Scoring Code!!!!!!!!!!!
         Dim dblUpperAutoPts As Double
         Dim dblLowerAutoPts As Double
         Dim blnInputOk = True
@@ -14,15 +17,13 @@ Public Class Form1
         Const intBreakB As Integer = 5
         Const intRotor As Integer = 60
 
-
-
         'Converting strings to integers(Autonomous)
         dblUpperAutoPts = CDbl(UpperAutoPts.Text)
         dblLowerAutoPts = CDbl(LowerAutoPts.Text)
 
         dblResult = dblUpperAutoPts + (dblLowerAutoPts / 3)
 
-        lblResult.Text = CStr(lblResult.Text)
+        lblResult.Text = CStr(dblResult)
 
 
         If BreakB.Checked = True Then
@@ -40,18 +41,12 @@ Public Class Form1
             lblResult.Text = CStr(dblResult)
         End If
 
-
-
-
-
-
-
-
-
+        'Teleop Scoring Code!!!!!!!!!!!
+        'Teleop Scoring Code!!!!!!!!!!!
+        'Teleop Scoring Code!!!!!!!!!!!
         Dim dblUpperTeleopPts As Double
         Dim dblLowerTeleopPts As Double
         Dim dblTotal As Double
-
 
         Const intRope As Integer = 50
         Const intRotor40 As Integer = 40
@@ -90,6 +85,7 @@ Public Class Form1
             dblTotal = dblUpperTeleopPts + (dblLowerTeleopPts / 3) + intRotor160
             lblTotal.Text = CStr(dblTotal)
         End If
+        /
 
         'If one of the 4 rotor check boxes is checked plus the rope if completed.
         If Rope.Checked And Rotor40.Checked = True Then
@@ -118,18 +114,22 @@ Public Class Form1
         Rotor80.Checked = False
         Rotor120.Checked = False
         Rotor160.Checked = False
+
         'Clearing the Team Name and Number Text Boxes
         txtTeamName.Text = String.Empty
         txtTeamNum.Text = String.Empty
         txtSpecial.Text = String.Empty
+
         'Clearing the Numeric Up and Down Boxes
         UpperAutoPts.Text = 0
         LowerAutoPts.Text = 0
         UpperTeleopPts.Text = 0
         LowerTeleopPts.Text = 0
+
         'Clearing The Total Labels
         lblResult.Text = String.Empty
         lblTotal.Text = String.Empty
+
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
@@ -137,10 +137,14 @@ Public Class Form1
     End Sub
 
     Private Sub btnExcel_Click(sender As Object, e As EventArgs) Handles btnExcel.Click
+        'Exports the data to notepad 
+        ' Puts the information into a coulmns "AddInfo.WriteLine"
+
 
         Dim AddInfo As New StreamWriter("C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\Resources\ScoutingText.txt", False)
 
         AddInfo.WriteLine("Team Name: " + txtTeamName.Text)
+
         AddInfo.WriteLine("Team Number: " + txtTeamNum.Text)
 
         AddInfo.WriteLine("TeleOp: " + lblTotal.Text)

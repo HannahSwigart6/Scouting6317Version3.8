@@ -90,11 +90,13 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="ScoutingProgram.Designer.vb">
+    <Compile Include="E:\Github repository\Scouting6317Version3.8\ScoutingProgram.Designer.vb">
       <DependentUpon>ScoutingProgram.vb</DependentUpon>
+      <Link>ScoutingProgram.Designer.vb</Link>
     </Compile>
-    <Compile Include="ScoutingProgram.vb">
+    <Compile Include="E:\Github repository\Scouting6317Version3.8\ScoutingProgram.vb">
       <SubType>Form</SubType>
+      <Link>ScoutingProgram.vb</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -104,8 +106,9 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ScoutingProgram.resx">
+    <EmbeddedResource Include="E:\Github repository\Scouting6317Version3.8\ScoutingProgram.resx">
       <DependentUpon>ScoutingProgram.vb</DependentUpon>
+      <Link>ScoutingProgram.resx</Link>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -132,12 +135,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database2.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database4.accdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <None Include="Resources\ScoutingTextDesk.txt" />
     <None Include="Resources\ScoutingText.txt" />
   </ItemGroup>

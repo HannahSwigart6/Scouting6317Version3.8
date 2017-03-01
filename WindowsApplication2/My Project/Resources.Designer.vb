@@ -61,10 +61,31 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; ?&gt;
+        '''&lt;configuration&gt;
+        '''    &lt;configSections&gt;
+        '''    &lt;/configSections&gt;
+        '''    &lt;connectionStrings&gt;
+        '''        &lt;add name=&quot;WindowsApplication2.My.MySettings.Database4ConnectionString&quot;
+        '''            connectionString=&quot;Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Database4.accdb&quot;
+        '''            providerName=&quot;System.Data.OleDb&quot; /&gt;
+        '''    &lt;/connectionStrings&gt;
+        '''    &lt;startup&gt;
+        '''        &lt;supportedRuntime version=&quot;v4.0&quot; sku=&quot;.NETFramework,Version=v4.5&quot; /&gt;
+        '''    &lt;/startup&gt;
+        '''&lt;/configu [rest of string was truncated]&quot;;.
+        '''</summary>
+        Friend ReadOnly Property App() As String
+            Get
+                Return ResourceManager.GetString("App", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to Team Name: 
         '''Team Number: 
-        '''TeleOp: 211.888888888889
-        '''Autonomous: 72
+        '''TeleOp: 2
+        '''Autonomous: 4
         '''Break Baseline: Completed
         '''Rotor Turning: Completed
         '''Special Comments: 
