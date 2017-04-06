@@ -1,7 +1,7 @@
-Team Name: 
-Team Number: 
-TeleOp: 2
-Autonomous: 4
+Team Name: jklghb
+Team Number: 12364
+TeleOp: 130
+Autonomous: 65
 Break Baseline: Completed
 Rotor Turning: Completed
 Special Comments: 

@@ -24,11 +24,10 @@ C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplic
 C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\obj\Debug\WindowsApplication2.exe
 C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\obj\Debug\WindowsApplication2.xml
 C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\obj\Debug\WindowsApplication2.pdb
-C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\bin\Debug\Database2.accdb
-C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\bin\Debug\Database4.accdb
 C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\bin\Debug\WindowsApplication2.exe
 C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\bin\Debug\WindowsApplication2.pdb
 C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\bin\Debug\WindowsApplication2.xml
 C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\obj\Debug\WindowsApplication2.Resources.resources
-C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\obj\Debug\WindowsApplication2.Form1.resources
 C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\obj\Debug\WindowsApplication2.vbproj.GenerateResource.Cache
+C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\obj\Debug\WindowsApplication2.vbprojResolveAssemblyReference.cache
+C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\obj\Debug\WindowsApplication2.ScoutingProgram.resources

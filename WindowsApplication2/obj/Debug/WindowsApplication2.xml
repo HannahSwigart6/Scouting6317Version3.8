@@ -15,12 +15,28 @@ WindowsApplication2
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:WindowsApplication2.My.Resources.Resources.App">
+	<summary>
+  Looks up a localized string similar to &lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;configuration&gt;
+    &lt;configSections&gt;
+    &lt;/configSections&gt;
+    &lt;connectionStrings&gt;
+        &lt;add name="WindowsApplication2.My.MySettings.Database4ConnectionString"
+            connectionString="Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\Database4.accdb"
+            providerName="System.Data.OleDb" /&gt;
+    &lt;/connectionStrings&gt;
+    &lt;startup&gt;
+        &lt;supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" /&gt;
+    &lt;/startup&gt;
+&lt;/configu [rest of string was truncated]";.
+</summary>
 </member><member name="P:WindowsApplication2.My.Resources.Resources.ScoutingText">
 	<summary>
   Looks up a localized string similar to Team Name: 
 Team Number: 
-TeleOp: 211.888888888889
-Autonomous: 72
+TeleOp: 2
+Autonomous: 4
 Break Baseline: Completed
 Rotor Turning: Completed
 Special Comments: 

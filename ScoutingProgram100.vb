@@ -42,7 +42,7 @@ Public Class Form1
 
     Dim a As StreamReader
     Dim b As String
-    Dim c As String = "C:\Users\hs131455\Desktop\Scouting6317Version3.8_backup\WindowsApplication2\Resources\ScoutingText.txt"
+    Dim c As String = "C:\Users\hs131455\Desktop\Github repository\Scouting6317Version3.8\WindowsApplication2\Resources\ScoutingText.txt"
 
 
     Private Sub btnResult_Click(sender As Object, e As EventArgs) Handles btnResult.Click

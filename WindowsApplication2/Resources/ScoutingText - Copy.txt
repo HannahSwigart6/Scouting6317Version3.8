@@ -1,7 +1,0 @@
-Team Name: lady 
-Team Number: 1256
-TeleOp: 167
-Autonomous: 106
-Break Baseline: Completed
-Rotor Turning: Completed
-Special Comments: lkg;lkejanhn baedhfxhfgsdhf
